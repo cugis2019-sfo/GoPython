@@ -19,7 +19,30 @@ Created on Mon Jun 10 16:08:25 2019
 def sum(a,b): 
     sum = a + b
     
-sum(5,8)
+    print("the sum of",a,"and",b"is",sum)
+    
+sum(4,5)
+sum(3.6,4.9)
+
+# wrinting code to sum any three number 
+
+def sum(a,b,c):
+    sum = a + b + c
+    
+    print("the sum of",a,"and",b,"and",c,"is",sum)
+    
+sum(4,5,6)
+sum(6.2,7.6,8.6)
+
+# area of triangle
+
+def multiplication(b,h):
+    multiplication = 0.5*b*h
+
+    print(multiplication)
+    
+multiplication(4,5)
+
 5/8 #Division
 print("Hello",5,"World")
 print("I love Python")
