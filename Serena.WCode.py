@@ -19,7 +19,7 @@ Created on Mon Jun 10 16:08:25 2019
 def sum(a,b): 
     sum = a + b
     
-    print("the sum of",a,"and",b"is",sum)
+    print("the sum of",a,"and",b,"is",sum)
     
 sum(4,5)
 sum(3.6,4.9)
@@ -39,10 +39,27 @@ sum(6.2,7.6,8.6)
 def multiplication(b,h):
     multiplication = 0.5*b*h
 
-    print(multiplication)
+    print("the multiplication of",b,"and",h,"is",multiplication)
     
 multiplication(4,5)
+multiplication(41,9)
 
+# how to greet
+
+def greet(a):
+    greet = a 
+    
+    print("Hello",greet)
+    
+greet("serena")
+
+def greeting(b):
+    greeting = b
+    
+    print(greeting)
+    
+greeting("how are you doing?")
+    
 5/8 #Division
 print("Hello",5,"World")
 print("I love Python")
