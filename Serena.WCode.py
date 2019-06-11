@@ -22,6 +22,17 @@ Created on Mon Jun 10 16:08:25 2019
 
 # wrinting code to sum any two number 
 
+# a variable is a container of data to which we assign a name 
+
+# t = 9 
+# t=variable
+# 9=data 
+# no assign a numeric value
+# numeric value can not be a variable 
+
+# t = "t" true 
+# t = "p" true 
+
 def sum(a,b): 
     sum = a + b
     
@@ -84,14 +95,13 @@ math.remainder(4,6)
 math.remainder(10,6)
 math.isclose(2.34,2.34)
 
-
 def cubicroot(c):
     cubicroot = c
     
     print(math.pow(c,(1/3)))
     
 cubicroot(8)
-
+cubicroot(7)
 def cuberoot(d):
     cuberoot = d**(1/3)
     
@@ -109,12 +119,29 @@ def user(e):
 user("Please select a number")
 e = 9
 
-
 def useranswer(e):
 
     print("your answer is",math.pow(e,(1/3)))
     
 useranswer(e)
+
+# learn code
+def user():
+    print("please select a number for t")
+    
+user()
+cubicroot(t)
+
+# cadburyBox
+
+#CadburyBox = 5
+#CadburyBox = CadburyBox + 5
+
+#sum(CadburyBox + 5)
+
+#CadburyBox1 = "Milk Chocolate"
+#CadburyBox2 = "Dark Chocolate"
+#CadburyBox3 = "White Chocolate"
 
 5/8 #Division
 print("Hello",5,"World")
@@ -126,5 +153,4 @@ print(5)
 5-2 # 5 subtracted by 2
 5**2 # 5 raised to the power of 2
 (8/9)*3 # 8 divide by 9 multiplied by 3 
-
 
