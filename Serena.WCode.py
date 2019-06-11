@@ -67,6 +67,7 @@ def greeting(b):
 greeting("how are you doing?")
     
 # use "import math" to import file
+# math library 
 
 import math
 dir(math)
@@ -81,6 +82,8 @@ math.factorial(100)
 math.pow(3,10)
 math.remainder(4,6)
 math.remainder(10,6)
+math.isclose(2.34,2.34)
+
 
 def cubicroot(c):
     cubicroot = c
@@ -95,6 +98,23 @@ def cuberoot(d):
     print(cuberoot)
     
 cuberoot(8)
+
+# ask user for number and assign it for a number
+
+def user(e):
+    user = e
+    
+    print(user)
+    
+user("Please select a number")
+e = 9
+
+
+def useranswer(e):
+
+    print("your answer is",math.pow(e,(1/3)))
+    
+useranswer(e)
 
 5/8 #Division
 print("Hello",5,"World")
