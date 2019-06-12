@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-""" 
-Created on Mon Jun 10 16:08:25 2019
-
-@author: admin
-"""
 #Documentation 
 #need perentaces when using words and quotes
 #number does not need quotes 
@@ -29,9 +23,12 @@ Created on Mon Jun 10 16:08:25 2019
 # 9=data 
 # no assign a numeric value
 # numeric value can not be a variable 
+# variable: name and value 
 
 # t = "t" true 
 # t = "p" true 
+
+# 3^56 = math.pow(3,56)
 
 def sum(a,b): 
     sum = a + b
@@ -131,17 +128,6 @@ def user():
     
 user()
 cubicroot(t)
-
-# cadburyBox
-
-#CadburyBox = 5
-#CadburyBox = CadburyBox + 5
-
-#sum(CadburyBox + 5)
-
-#CadburyBox1 = "Milk Chocolate"
-#CadburyBox2 = "Dark Chocolate"
-#CadburyBox3 = "White Chocolate"
 
 5/8 #Division
 print("Hello",5,"World")
