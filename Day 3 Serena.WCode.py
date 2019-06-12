@@ -87,13 +87,15 @@ print(studentgenderdf)
 print(Student)
 print(studentgender)
 
+# bring in the column and row 
 studentdf1 = [Student,studentgender]
 print(studentdf1)
 
 studentdf2 = pandas.DataFrame(studentdf1,index=["Age","Gender"])
 print(studentdf2)
 
-
+import pandas as pd
+import plotly, plot 
 
 
 
