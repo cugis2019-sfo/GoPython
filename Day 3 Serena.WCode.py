@@ -20,7 +20,8 @@ Cadburydark = 3
 Cadburywhite = 8
 
 # dict = the combining of the two variable 
-# {} use to define the pair data 
+# {} use to define the pair data \
+# also called as key pair
 Chocolate1 = {"Cadburymilk":5} # (milk,5)
 Chocolate2 = {"Cadburydark":8} # (dark,8)
 Chocolate3 = {"Cadburywhite":3} # (white,3)
@@ -28,6 +29,11 @@ Chocolate3 = {"Cadburywhite":3} # (white,3)
 print(Chocolate1, Chocolate2, Chocolate3)
 Chocolate = {"Cadburymilk":5,"Cadburydark":8,"Cadburywhite":3}
 print(Chocolate)
+chocolatedata = [Chocolate] #convert dict to list
+print(chocolatedata)
+
+chocolatedf = pandas.DataFrame(chocolatedata, index=["quality"]) # convert to column 
+print(chocolatedf)
 
 # practice
 Steve = 32
@@ -52,16 +58,40 @@ dir(pandas)
 
 studentinfocol = pandas.Series(Student)
 print(studentinfocol)
+studentdata  = [Student]
+studentdf = pandas.DataFrame(studentdata, index=["age"])
+print(studentdata)
+
+#test code
+studentlist = [["Steve",32,"male"],["Lia",28,"female"],["Vin",45,"male"],["Katie",38,"female"]]
+studentlistdf = pandas.DataFrame(studentlist,columns=["name","age","gender"],index=["1","2","3","4"])
+print(studentlistdf)
+
+students = {"Steve":32,"Lia":28,"Vin":45,"Katie":38}
+studentdata2 = [students]
+print(studentdata2)
+
+studentsdf = pandas.DataFrame(studentdata,index=["age"])
+print(studentsdf)
 
 # pandas practice
 chocolatecol = pandas.Series(Chocolate)
 print(Chocolate)
+
 studentgendercol = pandas.Series(studentgender)
 print(studentgender)
+studentgenderdata = [studentgender]
+studentgenderdf = pandas.DataFrame(studentgenderdata, index=["quality"])
+print(studentgenderdf)
 
+print(Student)
+print(studentgender)
 
+studentdf1 = [Student,studentgender]
+print(studentdf1)
 
-
+studentdf2 = pandas.DataFrame(studentdf1,index=["Age","Gender"])
+print(studentdf2)
 
 
 
