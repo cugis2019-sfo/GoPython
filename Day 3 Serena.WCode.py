@@ -20,7 +20,7 @@ Cadburydark = 3
 Cadburywhite = 8
 
 # dict = the combining of the two variable 
-# {} use to define the pair data \
+# {} use to define the pair data 
 # also called as key pair
 Chocolate1 = {"Cadburymilk":5} # (milk,5)
 Chocolate2 = {"Cadburydark":8} # (dark,8)
@@ -94,9 +94,8 @@ print(studentdf1)
 studentdf2 = pandas.DataFrame(studentdf1,index=["Age","Gender"])
 print(studentdf2)
 
-import pandas as pd
-import plotly, plot 
-
+# index is for rows 
+# series is column (only for one data)
 
 
 
